@@ -14,7 +14,7 @@ public class Console {
             ObjectMapper mapper = new ObjectMapper();
 
             Questions questions = mapper.readValue
-                    (Paths.get("E:\\Java_programy\\Milionerzy1\\src\\main\\resources\\questions.json").
+                    (Paths.get("E:\\Java_programy\\Milionerzy\\src\\main\\resources\\questions.json").
                                     toFile(),
                             Questions.class);
 

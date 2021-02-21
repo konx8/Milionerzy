@@ -35,7 +35,7 @@ public class Questions {
     public String toString() {
         return getTresc() + ", " + getOdp() + ", " + getCorrectOdp();
     }
-    public String readTresc(){
-        return getTresc();
+    public void readTresc(){
+        System.out.println(getTresc());
     }
 }
